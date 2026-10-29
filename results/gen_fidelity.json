@@ -1,0 +1,16 @@
+{
+ "n_real": 60,
+ "n_synthetic": 256,
+ "diffusion": {
+  "mean_abs_shift": 0.207,
+  "mean_abs_log_std_ratio": 1.5367,
+  "mean_channel_w1": 3.2257,
+  "real_bootstrap_w1_floor": 0.0535
+ },
+ "wgan": {
+  "mean_abs_shift": 0.2734,
+  "mean_abs_log_std_ratio": 0.7843,
+  "mean_channel_w1": 0.5056,
+  "real_bootstrap_w1_floor": 0.0535
+ }
+}

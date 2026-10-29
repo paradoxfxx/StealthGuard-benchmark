@@ -1,0 +1,22 @@
+[
+ {
+  "ramp_steps": 0,
+  "fdia_recall": 0.7166666666666667
+ },
+ {
+  "ramp_steps": 30,
+  "fdia_recall": 0.6833333333333333
+ },
+ {
+  "ramp_steps": 60,
+  "fdia_recall": 0.75
+ },
+ {
+  "ramp_steps": 128,
+  "fdia_recall": 0.43333333333333335
+ },
+ {
+  "ramp_steps": 256,
+  "fdia_recall": 0.36666666666666664
+ }
+]

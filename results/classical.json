@@ -1,0 +1,29 @@
+{
+ "IF": {
+  "det_f1": 0.632,
+  "det_auc": 0.7182769999999999,
+  "macro_f1": null
+ },
+ "OCSVM": {
+  "det_f1": 0.4013333333333333,
+  "det_auc": 0.4722716666666667,
+  "macro_f1": null
+ },
+ "PCA-AE": {
+  "det_f1": 0.52,
+  "det_auc": 0.5761043333333333,
+  "det_pred_f1": 0.27087033747779754
+ },
+ "BDD": {
+  "det_auc": null,
+  "det_f1": null,
+  "alarm_rate_by_class": {
+   "0": 0.067,
+   "1": 0.06,
+   "2": 0.06,
+   "3": 0.08,
+   "4": 0.993
+  },
+  "note": "per-step chi2 test at window end, from sim_meta"
+ }
+}

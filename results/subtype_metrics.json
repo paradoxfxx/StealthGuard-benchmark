@@ -1,0 +1,538 @@
+{
+ "per_seed": {
+  "cnn": {
+   "0": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.2887323943661972,
+     "as_fdia": 0.0
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.8237885462555066,
+     "as_fdia": 0.0
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.32061068702290074,
+     "as_fdia": 0.022900763358778626
+    }
+   },
+   "1": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.31690140845070425,
+     "as_fdia": 0.028169014084507043
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.8237885462555066,
+     "as_fdia": 0.00881057268722467
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.5114503816793893,
+     "as_fdia": 0.03816793893129771
+    }
+   },
+   "2": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.2887323943661972,
+     "as_fdia": 0.0
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.8237885462555066,
+     "as_fdia": 0.0
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.48091603053435117,
+     "as_fdia": 0.007633587786259542
+    }
+   }
+  },
+  "gru": {
+   "0": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.6126760563380281,
+     "as_fdia": 0.0
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.8237885462555066,
+     "as_fdia": 0.0
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.5267175572519084,
+     "as_fdia": 0.09923664122137404
+    }
+   },
+   "1": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.6126760563380281,
+     "as_fdia": 0.0
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.8237885462555066,
+     "as_fdia": 0.0
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.46564885496183206,
+     "as_fdia": 0.09923664122137404
+    }
+   },
+   "2": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.6126760563380281,
+     "as_fdia": 0.0
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.8237885462555066,
+     "as_fdia": 0.0
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.48091603053435117,
+     "as_fdia": 0.022900763358778626
+    }
+   }
+  },
+  "lstm": {
+   "0": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.6126760563380281,
+     "as_fdia": 0.0
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.8237885462555066,
+     "as_fdia": 0.0
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.5419847328244275,
+     "as_fdia": 0.0
+    }
+   },
+   "1": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.4859154929577465,
+     "as_fdia": 0.0
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.8237885462555066,
+     "as_fdia": 0.0
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.4961832061068702,
+     "as_fdia": 0.061068702290076333
+    }
+   },
+   "2": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.6126760563380281,
+     "as_fdia": 0.0
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.8237885462555066,
+     "as_fdia": 0.00881057268722467
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.4198473282442748,
+     "as_fdia": 0.13740458015267176
+    }
+   }
+  },
+  "transformer": {
+   "0": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.4084507042253521,
+     "as_fdia": 0.0
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.8237885462555066,
+     "as_fdia": 0.013215859030837005
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.6412213740458015,
+     "as_fdia": 0.10687022900763359
+    }
+   },
+   "1": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.45774647887323944,
+     "as_fdia": 0.07042253521126761
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.8237885462555066,
+     "as_fdia": 0.0
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.5267175572519084,
+     "as_fdia": 0.05343511450381679
+    }
+   },
+   "2": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.5211267605633803,
+     "as_fdia": 0.014084507042253521
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.8237885462555066,
+     "as_fdia": 0.0
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.5267175572519084,
+     "as_fdia": 0.0916030534351145
+    }
+   }
+  },
+  "mamba": {
+   "0": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.5140845070422535,
+     "as_fdia": 0.0
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.8237885462555066,
+     "as_fdia": 0.0
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.6564885496183206,
+     "as_fdia": 0.0
+    }
+   },
+   "1": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.36619718309859156,
+     "as_fdia": 0.0
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.7973568281938326,
+     "as_fdia": 0.0
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.42748091603053434,
+     "as_fdia": 0.0
+    }
+   },
+   "2": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.45774647887323944,
+     "as_fdia": 0.0
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.8237885462555066,
+     "as_fdia": 0.030837004405286344
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.7175572519083969,
+     "as_fdia": 0.06870229007633588
+    }
+   }
+  },
+  "grumamba": {
+   "0": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.6126760563380281,
+     "as_fdia": 0.0
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.8237885462555066,
+     "as_fdia": 0.0
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.4351145038167939,
+     "as_fdia": 0.0
+    }
+   },
+   "1": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.6126760563380281,
+     "as_fdia": 0.0
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.8237885462555066,
+     "as_fdia": 0.0
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.5954198473282443,
+     "as_fdia": 0.0
+    }
+   },
+   "2": {
+    "load_step": {
+     "n": 142,
+     "recall": 0.6126760563380281,
+     "as_fdia": 0.007042253521126761
+    },
+    "gen_trip": {
+     "n": 227,
+     "recall": 0.8237885462555066,
+     "as_fdia": 0.022026431718061675
+    },
+    "line_outage": {
+     "n": 131,
+     "recall": 0.6412213740458015,
+     "as_fdia": 0.08396946564885496
+    }
+   }
+  }
+ },
+ "summary": {
+  "cnn": {
+   "load_step": {
+    "recall_mean": 0.29812206572769956,
+    "recall_std": 0.013279000585662873,
+    "as_fdia_mean": 0.009389671361502348,
+    "n": 142
+   },
+   "gen_trip": {
+    "recall_mean": 0.8237885462555066,
+    "recall_std": 0.0,
+    "as_fdia_mean": 0.0029368575624082235,
+    "n": 227
+   },
+   "line_outage": {
+    "recall_mean": 0.4376590330788804,
+    "recall_std": 0.083699156251392,
+    "as_fdia_mean": 0.022900763358778626,
+    "n": 131
+   }
+  },
+  "gru": {
+   "load_step": {
+    "recall_mean": 0.6126760563380281,
+    "recall_std": 0.0,
+    "as_fdia_mean": 0.0,
+    "n": 142
+   },
+   "gen_trip": {
+    "recall_mean": 0.8237885462555066,
+    "recall_std": 0.0,
+    "as_fdia_mean": 0.0,
+    "n": 227
+   },
+   "line_outage": {
+    "recall_mean": 0.49109414758269726,
+    "recall_std": 0.02594920872057396,
+    "as_fdia_mean": 0.07379134860050891,
+    "n": 131
+   }
+  },
+  "lstm": {
+   "load_step": {
+    "recall_mean": 0.5704225352112675,
+    "recall_std": 0.059755502635482856,
+    "as_fdia_mean": 0.0,
+    "n": 142
+   },
+   "gen_trip": {
+    "recall_mean": 0.8237885462555066,
+    "recall_std": 0.0,
+    "as_fdia_mean": 0.0029368575624082235,
+    "n": 227
+   },
+   "line_outage": {
+    "recall_mean": 0.48600508905852413,
+    "recall_std": 0.05037910909217134,
+    "as_fdia_mean": 0.06615776081424936,
+    "n": 131
+   }
+  },
+  "transformer": {
+   "load_step": {
+    "recall_mean": 0.46244131455399057,
+    "recall_std": 0.046119442968048104,
+    "as_fdia_mean": 0.028169014084507043,
+    "n": 142
+   },
+   "gen_trip": {
+    "recall_mean": 0.8237885462555066,
+    "recall_std": 0.0,
+    "as_fdia_mean": 0.004405286343612335,
+    "n": 227
+   },
+   "line_outage": {
+    "recall_mean": 0.564885496183206,
+    "recall_std": 0.05397761688446926,
+    "as_fdia_mean": 0.08396946564885495,
+    "n": 131
+   }
+  },
+  "mamba": {
+   "load_step": {
+    "recall_mean": 0.4460093896713615,
+    "recall_std": 0.0609425116701745,
+    "as_fdia_mean": 0.0,
+    "n": 142
+   },
+   "gen_trip": {
+    "recall_mean": 0.8149779735682818,
+    "recall_std": 0.012460031386547084,
+    "as_fdia_mean": 0.010279001468428781,
+    "n": 227
+   },
+   "line_outage": {
+    "recall_mean": 0.6005089058524172,
+    "recall_std": 0.12486355365277656,
+    "as_fdia_mean": 0.022900763358778626,
+    "n": 131
+   }
+  },
+  "grumamba": {
+   "load_step": {
+    "recall_mean": 0.6126760563380281,
+    "recall_std": 0.0,
+    "as_fdia_mean": 0.002347417840375587,
+    "n": 142
+   },
+   "gen_trip": {
+    "recall_mean": 0.8237885462555066,
+    "recall_std": 0.0,
+    "as_fdia_mean": 0.007342143906020559,
+    "n": 227
+   },
+   "line_outage": {
+    "recall_mean": 0.5572519083969466,
+    "recall_std": 0.08836516719687193,
+    "as_fdia_mean": 0.027989821882951654,
+    "n": 131
+   }
+  }
+ },
+ "intersection": {
+  "load_step": {
+   "encoders": [
+    "cnn",
+    "gru",
+    "lstm",
+    "transformer",
+    "mamba",
+    "grumamba"
+   ],
+   "seed_used": {
+    "cnn": 0,
+    "gru": 0,
+    "lstm": 0,
+    "transformer": 0,
+    "mamba": 0,
+    "grumamba": 0
+   },
+   "n_union": 87,
+   "n_intersection": 40,
+   "per_encoder_nhits": {
+    "cnn": 41,
+    "gru": 87,
+    "lstm": 87,
+    "transformer": 58,
+    "mamba": 73,
+    "grumamba": 87
+   },
+   "all_identical": false
+  },
+  "gen_trip": {
+   "encoders": [
+    "cnn",
+    "gru",
+    "lstm",
+    "transformer",
+    "mamba",
+    "grumamba"
+   ],
+   "seed_used": {
+    "cnn": 0,
+    "gru": 0,
+    "lstm": 0,
+    "transformer": 0,
+    "mamba": 0,
+    "grumamba": 0
+   },
+   "n_union": 187,
+   "n_intersection": 187,
+   "per_encoder_nhits": {
+    "cnn": 187,
+    "gru": 187,
+    "lstm": 187,
+    "transformer": 187,
+    "mamba": 187,
+    "grumamba": 187
+   },
+   "all_identical": true
+  },
+  "line_outage": {
+   "encoders": [
+    "cnn",
+    "gru",
+    "lstm",
+    "transformer",
+    "mamba",
+    "grumamba"
+   ],
+   "seed_used": {
+    "cnn": 0,
+    "gru": 0,
+    "lstm": 0,
+    "transformer": 0,
+    "mamba": 0,
+    "grumamba": 0
+   },
+   "n_union": 110,
+   "n_intersection": 42,
+   "per_encoder_nhits": {
+    "cnn": 42,
+    "gru": 69,
+    "lstm": 71,
+    "transformer": 84,
+    "mamba": 86,
+    "grumamba": 57
+   },
+   "all_identical": false
+  },
+  "gru_lstm_load_step": {
+   "n_gru": 87,
+   "n_lstm": 87,
+   "n_overlap": 87
+  }
+ }
+}

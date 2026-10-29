@@ -1,0 +1,12 @@
+{
+ "full": {
+  "fdia_precision": 0.711,
+  "false_fdia": 101,
+  "predicted_fdia": 349
+ },
+ "nodiff": {
+  "fdia_precision": 0.547,
+  "false_fdia": 248,
+  "predicted_fdia": 547
+ }
+}

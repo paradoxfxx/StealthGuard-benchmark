@@ -1,0 +1,56 @@
+{
+ "strength_sweep": [
+  {
+   "level_sigma": 1.5,
+   "det_rate": 0.04,
+   "bdd_rate": 0.0
+  },
+  {
+   "level_sigma": 2.0,
+   "det_rate": 0.01,
+   "bdd_rate": 0.0
+  },
+  {
+   "level_sigma": 3.0,
+   "det_rate": 0.23,
+   "bdd_rate": 0.0
+  },
+  {
+   "level_sigma": 4.0,
+   "det_rate": 0.22,
+   "bdd_rate": 0.0
+  },
+  {
+   "level_sigma": 5.0,
+   "det_rate": 0.16,
+   "bdd_rate": 0.0
+  },
+  {
+   "level_sigma": 6.0,
+   "det_rate": 0.22,
+   "bdd_rate": 0.0
+  },
+  {
+   "level_sigma": 8.0,
+   "det_rate": 0.37,
+   "bdd_rate": 0.0
+  }
+ ],
+ "delay_steps": {
+  "fdia": [
+   26.5,
+   26.5,
+   2
+  ],
+  "replay": [
+   1.8571428571428572,
+   2.0,
+   7
+  ],
+  "rfdi": [
+   22.0,
+   18.0,
+   7
+  ]
+ }
+}
