@@ -3,7 +3,7 @@
 Code and data for the manuscript *"StealthGuard: A Physics-Informed
 Framework and Realistic Benchmark for Detecting Stealth Cyber-Attacks
 on Power Grid State Estimation"* (IET Cyber-Physical Systems: Theory &
-Applications, submission CPS-2026-10-0104).
+Applications).
 
 Public repository: https://github.com/paradoxfxx/StealthGuard-benchmark
 
@@ -19,7 +19,7 @@ Public repository: https://github.com/paradoxfxx/StealthGuard-benchmark
 - `models/` — the two-branch detector (temporal-difference stem,
   plug-in encoders: BiGRU / LSTM / 1-D CNN / Transformer / selective
   SSM / GRU+SSM) and the conditional generative models (CDDM, WGAN-GP).
-- `scripts/` — full pipeline: dataset generation (`sweep.py`),
+- `scripts/` — full pipeline: dataset generation (`sim/run_sim.py`),
   detector training/evaluation (`train_detector.py`, one JSON per run
   into `results/`), baselines (`eval_classical.py`,
   `baselines_external.py`), attack-axis sweeps (`eval_attack_axis.py`,

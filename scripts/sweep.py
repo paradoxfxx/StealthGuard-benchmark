@@ -82,7 +82,7 @@ def tag_of(cmd):
     aug = a[a.index("--aug") + 1]
     frac = a[a.index("--atk_frac") + 1] if "--atk_frac" in a else "1.0"
     seed = a[a.index("--seed") + 1] if "--seed" in a else "0"
-    L = a[a.index("--L") + 1] if "--L" in a else "64"
+    L = a[a.index("--L") + 1] if "--L" in a else "128"
     tag = f"{model}_{aug}{'' if frac == '1.0' else frac}_s{seed}_L{L}"
     if "--no_phys" in a:
         tag += "_nophys"

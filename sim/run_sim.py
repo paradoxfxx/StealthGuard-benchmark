@@ -8,7 +8,7 @@ Splits (mutually exclusive seeds, no run shared across splits):
     val            4                    4                     6
     test           5                    5                    10
 
-Windows: L = 64 steps (5.3 min at Ts = 5 s), fully inside same-label
+Windows: L = 128 steps (10.7 min at Ts = 5 s), fully inside same-label
 segments so every window has exactly one class.
 
 Outputs (results/):
@@ -30,7 +30,7 @@ from grid39 import Grid39                       # noqa: E402
 from scenarios import (ScenarioConfig, ScenarioRunner,  # noqa: E402
                        make_run, DAY, TS)
 
-L = 64
+L = 128
 RESULTS = os.path.join(os.path.dirname(HERE), "results")
 os.makedirs(RESULTS, exist_ok=True)
 

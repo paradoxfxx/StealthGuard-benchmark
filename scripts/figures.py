@@ -289,7 +289,7 @@ def fig_eff():
                      label=disp)
         axes[1].plot(Ls, mem, mk + "-", color=col, lw=1.4, ms=4.5)
     for ax, ttl, yl in [
-            (axes[0], "batch of 64 (RTX 5090)", "latency (ms)"),
+            (axes[0], "batch of 64 (RTX 5090D)", "latency (ms)"),
             (axes[1], "", "peak memory (GiB)")]:
         ax.set_xlabel("window length $L$")
         ax.set_xscale("log", base=2)
